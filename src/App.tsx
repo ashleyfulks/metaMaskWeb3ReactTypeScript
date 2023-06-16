@@ -100,7 +100,7 @@ const App = () => {
       { error && (
         <div onClick={() => setError(false)}>
           <strong>Error:</strong> {errorMessage}
-          <div>MetaMask Error: {String(error)}</div>
+          <div>isConnecting: {String(isConnecting)}</div>
         </div>
        )
       }
